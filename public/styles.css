@@ -1,0 +1,131 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .chat-container {
+    width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Set Username Section */
+  .set-username {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .set-username input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .set-username button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .set-username button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Chat Area */
+  .chat-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #f9f9f9;
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .chat-message img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
